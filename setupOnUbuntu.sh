@@ -73,7 +73,7 @@ yum install python-setuptools
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 python get-pip.py
 pip install --upgrade pip
-pip install behave nose docker-compose protobuf
+pip install behave nose docker-compose protobuf  grpcio
 
 # updater-server, update-engine, and update-service-common dependencies (for running locally)
 pip install -I flask==0.10.1 python-dateutil==2.2 pytz==2014.3 pyyaml==3.10 couchdb==1.0 flask-cors==2.0.1 requests==2.4.3
