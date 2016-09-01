@@ -87,4 +87,6 @@ git clone https://github.com/hyperledger/fabric.git
 
 
 cd fabric/
+#agian
+source ~/.bashrc
 make
